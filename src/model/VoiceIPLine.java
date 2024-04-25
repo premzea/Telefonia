@@ -6,6 +6,7 @@ public class VoiceIPLine extends MobileLine implements LongDistanceCaller{
     private int minOfLongDistance;
 
     public VoiceIPLine(int minOfLongDistance){
+        super(0);
         this.minOfLongDistance = minOfLongDistance;
     }
 
