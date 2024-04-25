@@ -16,11 +16,10 @@ public class VoiceIPLine extends MobileLine implements LongDistanceCaller{
     }
 
     public void longDistanceCall(int i){
-        int values = i;
+        
     }
 
     public int calculatePrice(){
-        int value = 0;
-        return value;
+        return 0;
     }
 }

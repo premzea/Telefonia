@@ -9,6 +9,11 @@ public class BasicPhoneLine implements LocalCaller{
         this.minOfLocalCalls = minOfLocalCalls;
     }
 
+    public BasicPhoneLine(int minOfLocalCalls, int numberOfCalls){
+        this.minOfLocalCalls = minOfLocalCalls;
+        this.numberOfCalls = numberOfCalls;
+    }
+
     public void localCall(int i){
 
     }
